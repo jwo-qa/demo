@@ -21,6 +21,7 @@ steps:
   - id: print-env-vars
     dir: hello-cloudbuild-v2
     name: gcr.io/cloud-builders/docker
+    entrypoint: bash
     args:
       - |
         echo ${_REGION}
