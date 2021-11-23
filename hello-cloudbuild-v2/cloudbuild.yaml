@@ -25,6 +25,7 @@ steps:
     args:
       - -c
       - |
+        echo _REGION
         echo ${_REGION}
 
   - id: build-app
