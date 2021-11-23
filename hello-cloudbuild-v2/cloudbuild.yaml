@@ -23,7 +23,7 @@ steps:
     name: gcr.io/cloud-builders/docker
     args:
       - |
-        echo ${REGION}
+        echo ${_REGION}
 
   - id: build-app
     dir: hello-cloudbuild-v2
